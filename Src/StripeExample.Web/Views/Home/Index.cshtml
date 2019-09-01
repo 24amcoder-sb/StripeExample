@@ -3,29 +3,29 @@
 }
 
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <h1>Stripe</h1>
+    <p class="lead">Stripe builds the most powerful and flexible tools for internet commerce. Whether you’re creating a subscription service, an on-demand marketplace, an e-commerce store, or a crowdfunding platform, Stripe’s meticulously designed APIs and unmatched functionality help you create the best possible product for your users. Millions of the world’s most innovative technology companies are scaling faster and more efficiently by building their businesses on Stripe.</p>
+    <p><a href="http://stripe.com/docs" target="_blank" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
 </div>
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Getting started</h2>
+        <h2>One-time Payment</h2>
         <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
+            This demo shows how to accept a one-time payment for a book with an embedded form.
         </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <p>@Html.ActionLink("Details", "Index", "Book", routeValues: null, htmlAttributes: new { @class = "btn btn-default" })</p>
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        <h2>One-time Payment Custom</h2>
+        <p>
+            This demo shows how to accept a one-time payment for a book with a custom form.
+        </p>
+        <p>@Html.ActionLink("Details", "Custom", "Book", routeValues: null, htmlAttributes: new { @class = "btn btn-default" })</p>
     </div>
     <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <h2>Subscription Payments</h2>
+        <p>This demo shows you how to accept recurring payments for a subscription software service.</p>
+        <p>@Html.ActionLink("Details", "Index", "Subscription", routeValues: null, htmlAttributes: new { @class = "btn btn-default" })</p>
     </div>
 </div>

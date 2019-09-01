@@ -168,8 +168,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BookController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\SubscriptionController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -184,6 +186,23 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\creditcards\amex.png" />
+    <Content Include="Content\images\creditcards\credit.png" />
+    <Content Include="Content\images\creditcards\dankort.png" />
+    <Content Include="Content\images\creditcards\diners.png" />
+    <Content Include="Content\images\creditcards\discover.png" />
+    <Content Include="Content\images\creditcards\forbru.png" />
+    <Content Include="Content\images\creditcards\google.png" />
+    <Content Include="Content\images\creditcards\jcb.png" />
+    <Content Include="Content\images\creditcards\laser.png" />
+    <Content Include="Content\images\creditcards\maestro.png" />
+    <Content Include="Content\images\creditcards\mastercard.png" />
+    <Content Include="Content\images\creditcards\money.png" />
+    <Content Include="Content\images\creditcards\paypa.png" />
+    <Content Include="Content\images\creditcards\shopify.png" />
+    <Content Include="Content\images\creditcards\solo.png" />
+    <Content Include="Content\images\creditcards\visa.png" />
+    <Content Include="Content\images\main-book.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -196,11 +215,13 @@
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.payment.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\payment-validations.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -235,6 +256,9 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Book\Custom.cshtml" />
+    <Content Include="Views\Book\Index.cshtml" />
+    <Content Include="Views\Subscription\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
