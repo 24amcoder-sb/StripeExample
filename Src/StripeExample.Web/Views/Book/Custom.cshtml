@@ -38,7 +38,7 @@
             </div>
         </div>
 
-        <div id="payment-form-container" class="col-md-6 well hidden">
+        <div id="payment-form-container" class="col-md-6 well @Model.PaymentFormHiddenCss">
             @using (Html.BeginForm("Custom", "Book", FormMethod.Post, new { id = "payment-form", @class = "cardInfo", accept_charset = "UTF-8", novalidate = "", autocomplete = "on" }))
             {
                 @Html.AntiForgeryToken()
@@ -83,14 +83,14 @@
                     <label for="email" class="control-label">Email</label>
                     <div class="input-group col-md-6">
 
-                        <input id="email" type="email" name="stripeEmail" class="input-lg form-control email" placeholder="Email" required>
+                        <input id="email" type="email" name="stripeEmail" value="@Model.StripeEmail" class="input-lg form-control email" placeholder="Email" required>
                         <span class="glyphicon glyphicon-envelope glyphicon-align-right form-control-feedback" aria-hidden="true"></span>
                     </div>
 
                 </div>
 
                 @Html.HiddenFor(m => m.StripePublishableKey)
-
+                @Html.ValidationSummary(true, "There was an error. ", new { @class = "alert alert-danger" })
                 <div class="row">
                     <div class="form-group col-md-6  ">
                         <button type="submit" class="btn btn-success  btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</button>

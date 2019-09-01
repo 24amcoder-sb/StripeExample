@@ -26,5 +26,13 @@ namespace StripeExample.Web.Models.Book
         public string StripePublishableKey { get; set; }
         public string StripeToken { get; set; }
         public string StripeEmail { get; set; }
+        public bool PaymentFormHidden { get; set; }
+        public string PaymentFormHiddenCss
+        {
+            get
+            {
+                return PaymentFormHidden ? "hidden" : "";
+            }
+        }
     }
 }
