@@ -16,13 +16,6 @@
     white-space: normal;
 }
 
-/* ~\Views\Book\Custom.cshtml */
-.adjust-glyphicon-lock {
-    line-height: 97px !important;
-    padding-right: 27px !important;
-}
-
-
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
@@ -7448,4 +7441,42 @@ body {
 
 .validation.text-success:after {
     content: 'Validation passed';
+}
+
+span.glyphicon-credit-card {
+    font-size: 1.2em;
+}
+
+span.glyphicon-envelope {
+    font-size: 1.2em;
+}
+
+span.glyphicon-lock {
+    font-size: 1.2em;
+}
+
+
+/*credit card images*/
+.card-images img.disabled {
+    opacity: 0.2;
+}
+
+#payment-form span.glyphicon.glyphicon-lock.form-control-feedback {
+    line-height: 95px;
+}
+
+label.error {
+    display: block;
+    color: #d9230f;
+    font-style: italic;
+    font-weight: normal;
+}
+
+input.error {
+    border: 2px solid #d9230f;
+    border-width: 2px;
+}
+
+.current-plan {
+    margin-top: 45px;
 }

@@ -1,4 +1,6 @@
-﻿@{
+﻿@model StripeExample.Web.Models.Book.IndexViewModel
+
+@{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -28,10 +30,17 @@
                             <a class="btn btn-primary btn-product"><span class="glyphicon glyphicon-thumbs-up"></span> Like</a>
                         </div>
                         <div class="col-md-6">
-                            <form action="" method="POST">
-                                <script src="https://checkout.stripe.com/checkout.js" class="stripe-button">
+                            @using (Html.BeginForm("Charge", "Book", FormMethod.Post))
+                            {
+                                @Html.AntiForgeryToken()
+                                <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                        data-key="@Model.StripePublishableKey"
+                                        data-amount="3900"
+                                        data-name="Funny Ant"
+                                        data-description='JavaScript Framework Guide'
+                                        data-image="/Content/images/main-book.png">
                                 </script>
-                            </form>
+                            }
                         </div>
                     </div>
 

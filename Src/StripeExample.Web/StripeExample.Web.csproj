@@ -176,6 +176,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\BookViewModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -259,6 +260,7 @@
     <Content Include="Views\Book\Custom.cshtml" />
     <Content Include="Views\Book\Index.cshtml" />
     <Content Include="Views\Subscription\Index.cshtml" />
+    <Content Include="Views\Book\Confirmation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
