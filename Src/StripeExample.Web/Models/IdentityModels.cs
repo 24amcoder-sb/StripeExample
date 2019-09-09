@@ -12,7 +12,7 @@ namespace StripeExample.Web.Models
     {
         [MaxLength(500)]
         public string StripeCustomerId { get; set; }
-        public DateTime ActiveUntil { get; set; }
+        public DateTime? ActiveUntil { get; set; }
         public DateTime? CreditCardExpires { get; set; }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
