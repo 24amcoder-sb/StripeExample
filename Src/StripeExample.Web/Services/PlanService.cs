@@ -1,11 +1,13 @@
 ﻿using Stripe;
 using StripeExample.Web.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 
 namespace StripeExample.Web.Services
 {
-    public class PlanService
+    public class PlanService : IPlanService
     {
         private IPaymentsModel _db;
         private StripePlanService _stripePlanService;
@@ -13,7 +15,7 @@ namespace StripeExample.Web.Services
         public PlanService(IPaymentsModel paymentsModel, StripePlanService stripePlanService)
         {
             _db = paymentsModel;
-            _stripePlanService = stripePlanService;            
+            _stripePlanService = stripePlanService;
         }
 
         public PlanService() :
@@ -28,7 +30,26 @@ namespace StripeExample.Web.Services
                          orderby p.DisplayOrder
                          select p).ToList();
 
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+
+            var stripePlans = (from p in _stripePlanService.List() select p).ToList();
+
+            foreach (var plan in plans)
+            {
+                var stripePlan = stripePlans.Single(p => p.Id == plan.ExternalId);
+                StripePlanToPlan(stripePlan, plan);
+            }
+
             return plans;
+        }
+
+        private void StripePlanToPlan(StripePlan stripePlan, Plan plan)
+        {
+            plan.Name = stripePlan.Name;
+            plan.AmountInCents = stripePlan.Amount;
+            plan.Currency = stripePlan.Currency;
+            plan.Interval = stripePlan.Interval;
+            plan.TrialPeriodDays = stripePlan.TrialPeriodDays;
         }
     }
 }
