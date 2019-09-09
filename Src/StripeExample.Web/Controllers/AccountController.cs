@@ -2,8 +2,10 @@
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using StripeExample.Web.Models;
+using StripeExample.Web.Services;
 using System;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
@@ -15,15 +17,17 @@ namespace StripeExample.Web.Controllers
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
+        private IPlanService planService;
 
         public AccountController()
         {
         }
 
-        public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
+        public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager, IPlanService planService)
         {
             UserManager = userManager;
             SignInManager = signInManager;
+            PlanService = planService;
         }
 
         public ApplicationSignInManager SignInManager
@@ -32,10 +36,16 @@ namespace StripeExample.Web.Controllers
             {
                 return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
             }
-            private set 
-            { 
-                _signInManager = value; 
+            private set
+            {
+                _signInManager = value;
             }
+        }
+
+        public IPlanService PlanService
+        {
+            get { return planService ?? new PlanService(); }
+            private set { planService = value; }
         }
 
         public ApplicationUserManager UserManager
@@ -135,9 +145,16 @@ namespace StripeExample.Web.Controllers
         //
         // GET: /Account/Register
         [AllowAnonymous]
-        public ActionResult Register()
+        public ActionResult Register(int id)
         {
-            return View();
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+
+            var plan = PlanService.Find(id);
+            var model = new RegisterViewModel() { Plan = plan };
+            if (Request.IsAuthenticated) {
+                return RedirectToAction("Billing", "Subscription", new { PlanID = model.Plan.Id });
+            }
+            return View(model);
         }
 
         //
@@ -149,7 +166,7 @@ namespace StripeExample.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser { UserName = model.Email, Email = model.Email, ActiveUntil = DateTime.Now.AddDays(-1) };
 
                 try
                 {
@@ -164,7 +181,8 @@ namespace StripeExample.Web.Controllers
                         // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
                         // await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
 
-                        return RedirectToAction("Index", "Home");
+                        //return RedirectToAction("Index", "Home");
+                        return RedirectToAction("Billing", "Subscription", new { PlanId = model.Plan.Id });
                     }
                     AddErrors(result);
                 }

@@ -24,6 +24,20 @@ namespace StripeExample.Web.Services
 
         }
 
+
+        public Plan Find(int id)
+        {
+            var plan = (from p in _db.Plans.Include("Features")
+                        where p.Id == id
+                        select p).SingleOrDefault();
+
+            var stripePlan = _stripePlanService.Get(plan.ExternalId);
+            StripePlanToPlan(stripePlan, plan);
+
+            return plan;
+        }
+
+
         public IList<Plan> List()
         {
             var plans = (from p in _db.Plans.Include("Features")

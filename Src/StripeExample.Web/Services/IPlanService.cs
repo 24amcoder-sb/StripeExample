@@ -5,6 +5,7 @@ namespace StripeExample.Web.Services
 {
     public interface IPlanService
     {
+        Plan Find(int id);
         IList<Plan> List();
     }
 }
