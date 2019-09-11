@@ -203,6 +203,7 @@
     <Compile Include="Data\Plan.cs">
       <DependentUpon>PaymentsModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Filters\AuthorizeSubscriber.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

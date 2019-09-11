@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using StripeExample.Web.Filters;
 using System.Web.Mvc;
 
 namespace StripeExample.Web.Controllers
 {
+    [AuthorizeSubscriber]
     public class DashboardController : Controller
     {
         // GET: Dashboard
