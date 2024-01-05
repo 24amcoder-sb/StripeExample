@@ -1,7 +1,8 @@
 repo_name: 24amcoder-sb/StripeExample
 report_id: 94c3e8eb909bca87053e04eecfa0febb
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-16T04:20:53+00:00'
+timestamp: '2024-01-05T08:39:54+00:00'
 requested_by: Lokesh-Swamy
 provider: github
 branch: master
@@ -17,8 +18,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
-  detection_source_url: Src/StripeExample.Web/StripeExample.Web.csproj
-  detection_source: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/StripeExample.Web.csproj
+  detection_source: Src/StripeExample.Web/StripeExample.Web.csproj
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-01 07:17:22.000000000 Z
 - name: C#
@@ -30,6 +31,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample
   detection_source: Repo Metadata
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -39,6 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -49,6 +52,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -60,6 +64,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-01 07:17:22.000000000 Z
@@ -73,6 +78,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-01 07:17:22.000000000 Z
@@ -87,7 +93,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-01 07:17:22.000000000 Z
@@ -100,6 +106,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-01 07:17:22.000000000 Z
@@ -113,6 +120,7 @@ tools:
   category: Data Stores
   sub_category: Object Relational Mapper (ORM)
   image_url: https://img.stackshare.io/service/3251/no-img-open-source.png
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -124,6 +132,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample
   detection_source: Repo Metadata
 - name: NuGet
   description: The package manager for .NET
@@ -133,6 +142,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-01 07:17:22.000000000 Z
@@ -144,6 +154,7 @@ tools:
   category: Application Hosting
   sub_category: Web Server Interface
   image_url: https://img.stackshare.io/service/4967/New_Project__95_.png
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-01 07:17:22.000000000 Z
@@ -156,6 +167,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web.sln
   detection_source: Src/StripeExample.Web.sln
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-01 07:17:22.000000000 Z
@@ -169,7 +181,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2440/9TeXWBzR_400x400.jpg
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-01 07:17:22.000000000 Z
@@ -183,7 +195,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13151/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-01 07:17:22.000000000 Z
@@ -197,7 +209,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13002/default_971bb108ce002c2032e407a9046135e1542c46c7.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -211,7 +223,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13030/default_1075538f3811f68c42abfdf5ebcf152058e4076d.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -225,7 +237,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13022/default_a0b0eac5a401515996bd8fc359ffcfbc844cbe90.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -248,7 +260,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12850/default_0f5233770e71818507f2339042e7e61bef904e70.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -262,7 +274,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12930/default_f8bf1110f8f0beaf5fae35865de7f77ccd1139f0.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -277,7 +289,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12966/default_bd8397841d0aa5de035298a9130ee2dc9d9b0ece.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -292,7 +304,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12947/default_d871263d8798790404638a4d3692cc70b6389166.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -305,7 +317,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13106/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -320,7 +332,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12889/default_d56a77cbb06d3dae6daef9669108e3e01d2494af.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -348,7 +360,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12970/default_54d470a1e19c265eb229b6bd88965fb8df9f9f78.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -363,7 +375,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12922/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -377,7 +389,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12999/default_12f7186a6d439da94c192c70c3589768d943782d.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -399,7 +411,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13279/default_58e2e43f71c25c7e8c3e64c2a30ddaf5c821729c.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -413,7 +425,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13271/default_0e6336285a2ac0713cff413264705f5aa2f348a1.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -428,7 +440,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13310/default_1e1f93823dcbf467a805adfd578c74f8f54c6a4e.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -443,7 +455,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12983/default_c33fee4544dbdcb376300222dc5e214ee63f7ce9.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -458,7 +470,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13305/default_a905ee276a536c55784ed56585a51a44d19b6d5b.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -472,7 +484,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12927/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -486,7 +498,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13143/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
@@ -500,13 +512,19 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/nuget/image.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-02 18:38:27.000000000 Z
   vulnerabilities:
-  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+  - name: 'Duplicate Advisory: Improper Handling of Exceptional Conditions in Newtonsoft.Json'
     cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8rfx-6mr3-5jh3
+    detected_date: Jan 4
+    severity: high
+    first_patched: 13.0.1
+  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+    cve_id: CVE-2024-21907
     cve_url: https://github.com/advisories/GHSA-5crp-9r3c-p9vr
     detected_date: Jun 23
     severity: high
@@ -522,7 +540,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/14135/default_f35a7f4dbace063a7776d713533b69bb952bd71e.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-01 20:20:34.000000000 Z
@@ -536,7 +554,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13115/default_a057bdad489be3cb053d372a68695da4ac94962d.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-01 07:17:22.000000000 Z
@@ -551,7 +569,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13119/default_f0c74e534077001eb65a152707758ce46a2dc970.png
-  detection_source_url: Src/StripeExample.Web/packages.config
+  detection_source_url: https://github.com/24amcoder-sb/StripeExample/blob/master/Src/StripeExample.Web/packages.config
   detection_source: Src/StripeExample.Web/packages.config
   last_updated_by: S Lokesh Swamy
   last_updated_on: 2019-09-01 07:17:22.000000000 Z
