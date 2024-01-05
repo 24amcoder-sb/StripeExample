@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 24amcoder-sb/StripeExample is built on the following main stack:
+
 - [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
 - [C#](http://csharp.net) – Languages
 - [jQuery](http://jquery.com/) – Javascript UI Libraries
@@ -15,11 +16,13 @@
 - [ASP.NET Core](docs.microsoft.com/en-us/aspnet/core/) – Frameworks (Full Stack)
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 24amcoder-sb/StripeExample is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/1014/IoPy1dce_400x400.png' alt='.NET'/> [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png' alt='C#'/> [C#](http://csharp.net) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg' alt='jQuery'/> [jQuery](http://jquery.com/) – Javascript UI Libraries
@@ -33,14 +36,15 @@ Full tech stack [here](/techstack.md)
 - <img width='25' height='25' src='https://img.stackshare.io/service/11331/asp.net-core.png' alt='ASP.NET Core'/> [ASP.NET Core](docs.microsoft.com/en-us/aspnet/core/) – Frameworks (Full Stack)
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [24amcoder-sb/StripeExample](https://github.com/24amcoder-sb/StripeExample)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|38<br/>Tools used|11/16/23 <br/>Report generated|
+|38<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -208,7 +212,7 @@ Full tech stack [here](/techstack.md)
 |[Microsoft.Owin.Security.Twitter](https://www.nuget.org/Microsoft.Owin.Security.Twitter)|v3.1.0|09/02/19|S Lokesh Swamy |Apache-2.0|N/A|
 |[Microsoft.Web.Infrastructure](https://www.nuget.org/Microsoft.Web.Infrastructure)|v1.0.0|09/02/19|S Lokesh Swamy |N/A|N/A|
 |[Microsoft.jQuery.Unobtrusive.Validation](https://www.nuget.org/Microsoft.jQuery.Unobtrusive.Validation)|v3.2.11|09/02/19|S Lokesh Swamy |Apache-2.0|N/A|
-|[Newtonsoft.Json](https://www.nuget.org/Newtonsoft.Json)|v11.0.1|09/02/19|S Lokesh Swamy |MIT|[](https://github.com/advisories/GHSA-5crp-9r3c-p9vr) (High)|
+|[Newtonsoft.Json](https://www.nuget.org/Newtonsoft.Json)|v11.0.1|09/02/19|S Lokesh Swamy |MIT|[](https://github.com/advisories/GHSA-8rfx-6mr3-5jh3) (High)<br/>[CVE-2024-21907](https://github.com/advisories/GHSA-5crp-9r3c-p9vr) (High)|
 |[Stripe.net](https://www.nuget.org/Stripe.net)|v4.0.2|09/01/19|S Lokesh Swamy |Apache-2.0|N/A|
 |[WebGrease](https://www.nuget.org/WebGrease)|v1.6.0|09/01/19|S Lokesh Swamy |Apache-2.0|N/A|
 |[jQuery.Validation](https://www.nuget.org/jQuery.Validation)|v1.17.0|09/01/19|S Lokesh Swamy |MIT|[CVE-2021-21252](https://github.com/advisories/GHSA-jxwx-85vp-gvwm) (High)<br/>[CVE-2021-43306](https://github.com/advisories/GHSA-j9m2-h2pv-wvph) (Low)|
